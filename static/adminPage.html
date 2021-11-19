@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time</title>
+    <style>  
+
+      Label {
+        color: #2f9fb5;
+        text-align: center;
+        font-size: 45px;
+      }
+      input {
+          background-color: rgb(164, 198, 209);
+          background-image: url('searchicon.png');
+          background-position: 10px 10px;
+          background-repeat: no-repeat;
+          padding-left: 40px;
+}
+
+h4 {
+ color: #1f4131;
+        text-align: center;
+        font-size: 45px;
+}
+
+ body {background-color: rgb(150, 212, 176);}
+
+      </style>
+
+   
+  </head>
+   
+  <body>
+    
+    <Label>Welcome to the Admin Page!</Label>
+  </br>
+  </br>
+  </br>
+  <h4>Add or edit the times</h4>
+    <form name = 'myform' action="/addTime">
+      
+
+  
+      Time1: <input name="time1" value = "10:00 am" /> 
+
+      Time2: <input name="time2" value = "10:00 am"/> 
+      Time2: <input name="time3" value = "10:00 am" /> 
+      Time4: <input name="time4" value = "10:00 am" /> 
+      Time5: <input name="time5" value = "10:00 am"/> 
+
+    </br>
+    </br>
+    </br>
+      
+      Time6: <input name="time6" value = "10:00 am" /> 
+
+      Time7: <input name="time7" value = "10:00 am"/> 
+      Time8: <input name="time8" value = "10:00 am"/> 
+      Time9: <input name="time9" value = "10:00 am" /> 
+      Time10: <input name="time10" value = "10:00 am"/> 
+  </br>
+</br>
+ </br>
+</br>
+
+
+      <input type="submit" />
+       <a href='/schedule'>Guest Previous Submissions</a>
+    </form>
+     </br>
+</br>
+  </br>
+  <a href= "/times">Admin Previous submission</a>
+     
+  </body>
+</html>
